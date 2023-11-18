@@ -1,0 +1,7 @@
+.btn- {
+  &primary {
+    &:hover {
+      background-color: color-mix(in srgb, $primary, $white 30%);
+    }
+  }
+}

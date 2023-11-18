@@ -1,0 +1,23 @@
+.swiper-wrapper {
+  transition-timing-function: linear;
+}
+
+.swiper-slide {
+  width: auto;
+}
+
+.swiper-button-next, .swiper-button-prev {
+  position: static;
+  width: 48px;
+  height: 48px;
+  margin-top: 40px;
+  color: $white;
+  border: 1px solid rgba($light, 0.2);
+  background: linear-gradient(0deg, rgba($light, 0.2), rgba($light, 0.2)),
+              linear-gradient(137.76deg, rgba($white, 0.3) 3.97%, rgba($white, 0.2) 90.62%);
+  border-radius: 50%;
+
+  &::after {
+    content: '';
+  }
+}

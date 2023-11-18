@@ -1,0 +1,23 @@
+.hover- {
+  &opacity {
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+
+  &secondary {
+    &:hover {
+      color: $purple !important;
+      
+      & .border-secondary {
+        border-color: rgba($purple, 0.3)  !important;
+      }
+    }
+  }
+
+  &border {
+    &:hover {
+      border: 2px solid rgba($light, 0.5);
+    }
+  }
+}

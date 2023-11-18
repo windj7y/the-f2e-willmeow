@@ -1,0 +1,22 @@
+.bg- {
+  &blue {
+    @include media-breakpoint-up(lg) {
+      background: url(../images/bg.png) no-repeat center;
+    }
+  }
+
+  &linear- {
+    &1 {
+      background: linear-gradient(90.02deg, rgba($white, 0.1) 0.73%, rgba($white, 0.1) 98.94%);
+    }
+
+    &2 {
+      background: linear-gradient(0deg, #1C1C2F, #1C1C2F),
+                  linear-gradient(0deg, rgba($light, 0.2), rgba($light, 0.2));
+    }
+
+    &3 {
+      background: linear-gradient(135deg, #1D1C2F 0%, rgba(29, 28, 47, 0.5) 100%);
+    }
+  }
+}

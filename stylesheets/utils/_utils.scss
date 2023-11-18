@@ -1,0 +1,11 @@
+.object- {
+  &cover {
+    object-fit: cover;
+  }
+
+  &position- {
+    &top {
+      object-position: top;
+    }
+  }
+}
